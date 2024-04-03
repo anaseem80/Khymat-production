@@ -1,0 +1,1 @@
+import{ac as r,b as o,ad as s,aa as c}from"./entry.3WBB32f8.js";import"./swiper-vue.JvRXmqhe.js";const u=r(async(i,n)=>{let t,a;const e=o();if([t,a]=s(()=>e.GET_CART_DATA()),await t,a(),e.cart.cart_items.length==0)return c("/")});export{u as default};
