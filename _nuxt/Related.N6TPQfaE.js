@@ -1,0 +1,1 @@
+import{_ as o}from"./Related.vue.TyCdqvee.js";import"./Product.5c8IURfH.js";import"./entry.7m-UfYi-.js";import"./swiper-vue.vkXjvdEW.js";import"./WishListIcon.LKsvHEqw.js";import"./wishlist.B0olC1DV.js";export{o as default};
