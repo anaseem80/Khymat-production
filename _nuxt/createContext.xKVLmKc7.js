@@ -1,0 +1,1 @@
+import{k as s}from"./entry.Tb-PheA_.js";import{r as c,p as a,w as i,i as u}from"./swiper-vue.3kpoCCrI.js";function x(r){const t=Symbol("contextKey");return{useProvide:(o,n)=>{const e=c({});return a(t,e),i(()=>{s(e,o,n||{})}),e},useInject:()=>u(t,r)||{}}}export{x as c};
