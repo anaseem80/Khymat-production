@@ -1,1 +1,0 @@
-import{B as s,C as i,D as e}from"./entry.rn6gmTy6.js";const a=s({id:"myCountriesStore",state:()=>({countries:[],loading_countries:!1}),actions:{async GET_COUNTRIES(){this.loading_countries=!0,await i.get(e+"/countries").then(t=>{t.data.status_code==200&&(this.loading_countries=!1,this.countries=t.data.countries)}).catch(t=>{this.loading_countries=!1})}}});export{a as u};
