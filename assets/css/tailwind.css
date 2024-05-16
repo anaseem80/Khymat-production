@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Body */
+body{
+    font-family: "Cairo" !important;
+    font-weight: normal;
+    font-style: normal;
+    direction: ltr;
+    overflow-x: hidden;
+}
+
+/* Components */
+@layer components {
+    .skelton-img span{
+        height: 100vh !important;
+    }
+    .category-pic-container:hover .category-title {
+        @apply bottom-4;
+    }
+    .fade-enter-active, .fade-leave-active {
+        transition: opacity .1s;
+    }
+    .fade-enter, .fade-leave-to /* .fade-leave-active in <2.1.8 */ {
+        opacity: 0;
+    }
+    @keyframes move {
+        0% {
+            bottom: 0;
+        }
+        25% {
+            bottom: -30px;
+            transition: none;
+        }
+        50% {
+            top: -35px;
+        }
+        100% {
+            top: 0;
+        }
+    }
+    .category-drodpown{
+        transition: 0.3s;
+        @apply opacity-0 invisible translate-y-5
+    }
+    .category-bar-item:hover .category-drodpown{
+        @apply opacity-100 visible translate-y-0
+    }
+    header > * {
+        @apply font-medium hover:text-red-200
+    }
+    input{
+        @apply accent-primary
+    }
+    .dropdown-user svg path{
+        @apply transition
+    }
+    .dropdown-user li a, .dropdown-user li button{
+        @apply w-full hover:bg-primary hover:-translate-x-1 hover:text-white py-2 px-4 text-black flex gap-3 items-center transition ease-in border-b border-gray-50
+    }
+    .dropdown-user li a:hover > svg > path,
+    .dropdown-user li button:hover > svg > path{
+        @apply stroke-white
+    }
+    :where(.css-dev-only-do-not-override-1hsjdkk).ant-pagination .ant-pagination-item-active a{
+        @apply text-white transition-all
+    }
+    :where(.css-dev-only-do-not-override-1hsjdkk).ant-pagination .ant-pagination-item-active{
+        @apply border-primary bg-primary transition-all
+    }
+    :where(.css-dev-only-do-not-override-1hsjdkk).ant-pagination .ant-pagination-item-active:hover a{
+        @apply  text-white
+    }
+    :where(.css-dev-only-do-not-override-1hsjdkk).ant-radio-wrapper .ant-radio-checked .ant-radio-inner,
+    :where(.css-dev-only-do-not-override-1hsjdkk).ant-pagination .ant-pagination-item:hover{
+        @apply  bg-primary
+    }
+    svg{
+        @apply transition
+    }
+    .hovering-option:hover:after{
+        left: unset;
+    }
+    .hovering-option{
+        @apply relative hover:after:w-full hover:after:right-0
+    }
+    .hovering-option::after{
+        content: "";
+        @apply w-0 h-[.5px] absolute text-white bg-white bottom-[-4px] left-0 transition-all
+    }
+    .btn{
+        @apply bg-primary hover:bg-[#874675] transition ease-in text-center p-3 flex justify-center items-center text-white rounded
+    }
+    .btn:hover > *,
+    .btn-outline:hover > *{
+        animation: move .5s;
+        @apply relative
+    }
+    .btn:hover .arrow{
+        transform: translateX(5px);
+    }
+    .btn-outline{
+        @apply overflow-hidden border  hover:bg-primary hover:text-white transition ease-in text-center p-3 flex justify-center items-center text-primary rounded
+    }
+    .social-login:hover path{
+        @apply fill-white
+    }
+    .is-invalid{
+        @apply border-b-2 border-red-500
+    }
+    .is-valid{
+        @apply border-b-2 border-green-500
+    }
+    .invalid-feedback{
+        @apply text-red-500 mb-2
+    }
+    input{
+        @apply transition
+    }
+    .dropdown-user-small a{
+        @apply flex gap-4 !border-b-gray-200 !py-3
+    }
+    button:disabled,
+    button[disabled]{
+        @apply bg-[#874675] opacity-50
+    }
+    input:disabled{
+        @apply bg-gray-300 opacity-50
+    }
+    path{
+        @apply transition
+    }
+    .add-to-cart{
+        @apply overflow-hidden
+    }
+
+    .add-to-cart:hover > span{
+        animation: move .3s;
+        @apply text-white relative
+    }
+    .add-to-cart:hover path,
+    .add-to-wishlist:hover path{
+        @apply stroke-white
+    }
+    table th, table td{
+        @apply text-start px-3 py-8
+    }
+    table th{
+        @apply bg-neutral-100 text-neutral-500 p-3
+    }
+    .filter-button:hover path{
+        @apply stroke-white
+    }
+    .item-category-dropdown:hover > svg{
+        @apply translate-x-0
+    }
+    @media(max-width:767px){
+        .product-filter-sm{
+            @apply flex gap-4
+        }
+        .filter-khymat-main{
+            @apply w-full h-lvh fixed z-30 top-0 right-0 backdrop-blur-sm
+        }
+        .filter-khymat{
+            @apply bg-white z-40 shadow-sm p-4 border rounded-lg
+        }
+    }
+    [type="radio"]:checked,
+    [type="radio"]:not(:checked) {
+        position: absolute;
+        left: -9999px;
+    }
+    [type="radio"]:checked + label,
+    [type="radio"]:not(:checked) + label
+    {
+        position: relative;
+        padding-right: 28px;
+        cursor: pointer;
+        line-height: 20px;
+        display: inline-block;
+        color: #666;
+    }
+    [type="radio"]:checked + label:before,
+    [type="radio"]:not(:checked) + label:before {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 18px;
+        height: 18px;
+        border: 1px solid #ddd;
+        border-radius: 100%;
+        background: #fff;
+    }
+    [type="radio"]:checked + label:after,
+    [type="radio"]:not(:checked) + label:after {
+        content: '';
+        width: 12px;
+        height: 12px;
+        @apply bg-primary;
+        position: absolute;
+        top: 3px;
+        right: 3px;
+        border-radius: 100%;
+        -webkit-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+    }
+    [type="radio"]:not(:checked) + label:after {
+        opacity: 0;
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    [type="radio"]:checked + label:after {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+/* Header */
+.header{
+    transition: 0.8s ease-in-out !important;
+}
+
+.header.menu_fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100% ;
+    z-index: 16;
+    -webkit-box-shadow: 0px 0px 8px rgba(51, 51, 51, 0.2);
+            box-shadow: 0px 0px 8px rgba(51, 51, 51, 0.2);
+}
+
+.header.menu_fixed_up {
+    position: fixed;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    z-index: 16;
+    -webkit-box-shadow: 0px 0px 8px rgba(51, 51, 51, 0.2);
+    box-shadow: 0px 0px 8px rgba(51, 51, 51, 0.2);
+}
+
+/* Responsive */
+@media(min-width:767px){
+    ::-webkit-scrollbar {
+        -webkit-appearance: none;
+        width: 7px
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        border-radius: 0px;
+        background-color: rgba(0, 0, 0, 0.5);
+        -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5)
+    }
+}
+@media (max-width: 992px) {
+    .category-drodpown{
+        @apply hidden
+    }
+    .category-item-nav {
+        @apply rounded-full px-3 py-1 hover:bg-white hover:text-black transition;
+        width: auto;
+        flex-shrink: 0;
+    }
+    .category-items-nav {
+        @apply overflow-x-scroll h-10 gap-3 w-full;
+    }
+    .header.menu_fixed{
+        padding: 15px;
+    }
+}
+@media (min-width: 992px) {
+    .category-item-nav{
+        position: relative;
+    }
+    .category-item-nav:after {
+        content: "";
+        width: 0;
+        position: absolute;
+        height: 1px;
+        left: 0;
+        @apply bg-primary;
+        bottom: 0;
+        transition: 0.2s;
+    }
+    .category-item-nav:hover > svg{
+        transform: rotate(180deg);
+    }
+    .category-item-nav:hover:after{
+        left: unset;
+        right: 0;
+        width: 100%;
+    }
+}
