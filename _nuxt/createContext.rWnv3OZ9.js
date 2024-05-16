@@ -1,0 +1,1 @@
+import{m as c}from"./entry.Cax_P2cP.js";import{r as i,p as u,w as m,i as p}from"./swiper-vue.9cXPaQ7p.js";function l(o,e){const n=c({},o);for(let t=0;t<e.length;t+=1){const r=e[t];delete n[r]}return n}function x(o){const e=Symbol("contextKey");return{useProvide:(r,a)=>{const s=i({});return u(e,s),m(()=>{c(s,r,a||{})}),s},useInject:()=>p(e,o)||{}}}export{x as c,l as o};
