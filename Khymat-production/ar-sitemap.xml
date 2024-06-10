@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/__sitemap__/style.xsl"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://www.khaymatzaman.com/ar</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.khaymatzaman.com/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.khaymatzaman.com/ar" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.khaymatzaman.com/" />
+    </url>
+    <url>
+        <loc>https://www.khaymatzaman.com/ar/cart</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.khaymatzaman.com/cart" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.khaymatzaman.com/ar/cart" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.khaymatzaman.com/cart" />
+    </url>
+    <url>
+        <loc>https://www.khaymatzaman.com/ar/categories</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.khaymatzaman.com/categories" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.khaymatzaman.com/ar/categories" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.khaymatzaman.com/categories" />
+    </url>
+    <url>
+        <loc>https://www.khaymatzaman.com/ar/checkout</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.khaymatzaman.com/checkout" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.khaymatzaman.com/ar/checkout" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.khaymatzaman.com/checkout" />
+    </url>
+    <url>
+        <loc>https://www.khaymatzaman.com/ar/faq</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.khaymatzaman.com/faq" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.khaymatzaman.com/ar/faq" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.khaymatzaman.com/faq" />
+    </url>
+    <url>
+        <loc>https://www.khaymatzaman.com/ar/login</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.khaymatzaman.com/login" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.khaymatzaman.com/ar/login" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.khaymatzaman.com/login" />
+    </url>
+    <url>
+        <loc>https://www.khaymatzaman.com/ar/privacy</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.khaymatzaman.com/privacy" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.khaymatzaman.com/ar/privacy" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.khaymatzaman.com/privacy" />
+    </url>
+    <url>
+        <loc>https://www.khaymatzaman.com/ar/profile</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.khaymatzaman.com/profile" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.khaymatzaman.com/ar/profile" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.khaymatzaman.com/profile" />
+    </url>
+    <url>
+        <loc>https://www.khaymatzaman.com/ar/register</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.khaymatzaman.com/register" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.khaymatzaman.com/ar/register" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.khaymatzaman.com/register" />
+    </url>
+    <url>
+        <loc>https://www.khaymatzaman.com/ar/search</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.khaymatzaman.com/search" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.khaymatzaman.com/ar/search" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.khaymatzaman.com/search" />
+    </url>
+    <url>
+        <loc>https://www.khaymatzaman.com/ar/terms</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.khaymatzaman.com/terms" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.khaymatzaman.com/ar/terms" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.khaymatzaman.com/terms" />
+    </url>
+    <url>
+        <loc>https://www.khaymatzaman.com/ar/wishlist</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.khaymatzaman.com/wishlist" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.khaymatzaman.com/ar/wishlist" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.khaymatzaman.com/wishlist" />
+    </url>
+    <url>
+        <loc>https://www.khaymatzaman.com/ar/profile/orders</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.khaymatzaman.com/profile/orders" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.khaymatzaman.com/ar/profile/orders" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.khaymatzaman.com/profile/orders" />
+    </url>
+    <url>
+        <loc>https://www.khaymatzaman.com/ar/profile/wallet</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.khaymatzaman.com/profile/wallet" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.khaymatzaman.com/ar/profile/wallet" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.khaymatzaman.com/profile/wallet" />
+    </url>
+</urlset>
+<!-- XML Sitemap generated by @nuxtjs/sitemap v5.1.5 at 2024-05-19T02:10:18.992Z -->
