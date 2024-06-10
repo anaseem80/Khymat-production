@@ -1,1 +1,0 @@
-import{o as s}from"./entry.CCc8V8PH.js";import{r as c,p as a,w as i,i as u}from"./swiper-vue.pW2UkmIU.js";function x(o){const t=Symbol("contextKey");return{useProvide:(r,n)=>{const e=c({});return a(t,e),i(()=>{s(e,r,n||{})}),e},useInject:()=>u(t,o)||{}}}export{x as c};
