@@ -1,0 +1,1 @@
+import{a3 as s,a4 as a,a5 as i}from"./entry.c00z_NC_.js";const o=s({id:"myCountriesStore",state:()=>({countries:[],loading_countries:!1}),actions:{async GET_COUNTRIES(){this.loading_countries=!0,await a.get(i+"/countries").then(t=>{t.data.status_code==200&&(this.loading_countries=!1,this.countries=t.data.countries)}).catch(t=>{this.loading_countries=!1})}}});export{o as u};
